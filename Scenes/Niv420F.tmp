@@ -1,0 +1,55 @@
+[gd_scene load_steps=10 format=3 uid="uid://c5t3edv4m4wuk"]
+
+[ext_resource type="Texture2D" uid="uid://cvd3hbinevcg6" path="res://Assets/fondo/fondo.jpg" id="1_hkj4q"]
+[ext_resource type="PackedScene" uid="uid://cn2l4y6kdeykm" path="res://Scenes/Player.tscn" id="1_m1pg5"]
+[ext_resource type="Script" path="res://Scripts/Camera2D.gd" id="2_eaf7a"]
+[ext_resource type="PackedScene" uid="uid://b2y5pk2ake724" path="res://Scenes/Directed_enemy.tscn" id="3_at5uw"]
+[ext_resource type="PackedScene" uid="uid://dqlg0irkaoxio" path="res://Scenes/Enemy_group.tscn" id="3_xxnvs"]
+[ext_resource type="Script" path="res://Scripts/PowerUp.gd" id="4_emtj8"]
+[ext_resource type="Texture2D" uid="uid://ckibgi7afw1vd" path="res://Assets/disparo/powerUp.png" id="4_tjafj"]
+[ext_resource type="PackedScene" uid="uid://b47iahshp8no3" path="res://Scenes/Mountain.tscn" id="7_v230y"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_xairx"]
+radius = 41.0122
+
+[node name="Nivel1" type="Node2D"]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(5760, 0)
+
+[node name="Fondo" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(2880, 540)
+texture = ExtResource("1_hkj4q")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(960, 540)
+script = ExtResource("2_eaf7a")
+
+[node name="Player" parent="Camera2D" instance=ExtResource("1_m1pg5")]
+position = Vector2(-636, -296)
+
+[node name="EnemyGroup" parent="." instance=ExtResource("3_xxnvs")]
+speed = 500.0
+
+[node name="DirectedEnemy" parent="." instance=ExtResource("3_at5uw")]
+position = Vector2(1152, 59)
+
+[node name="PowerUp" type="Area2D" parent="."]
+position = Vector2(689, 167)
+script = ExtResource("4_emtj8")
+
+[node name="PowerUp" type="Sprite2D" parent="PowerUp"]
+texture = ExtResource("4_tjafj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PowerUp"]
+shape = SubResource("CircleShape2D_xairx")
+
+[node name="Mountain" parent="." instance=ExtResource("7_v230y")]
+position = Vector2(1116, 849)
+
+[node name="Mountain2" parent="." instance=ExtResource("7_v230y")]
+position = Vector2(3444, 849)
+
+[connection signal="body_entered" from="PowerUp" to="PowerUp" method="_on_body_entered"]

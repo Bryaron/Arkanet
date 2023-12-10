@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://3ffehvrjy0ar"]
+
+[ext_resource type="Script" path="res://Scripts/Special_shot.gd" id="1_0ndp3"]
+[ext_resource type="PackedScene" uid="uid://dktr3lyxm7c8n" path="res://Scenes/Shot.tscn" id="1_8u2i1"]
+
+[node name="Special_shot" type="Node2D"]
+script = ExtResource("1_0ndp3")
+
+[node name="Shot" parent="." instance=ExtResource("1_8u2i1")]
+position = Vector2(0, -100)
+
+[node name="Shot2" parent="." instance=ExtResource("1_8u2i1")]
+position = Vector2(0, 100)
+
+[node name="Shot3" parent="." instance=ExtResource("1_8u2i1")]
+position = Vector2(50, 0)

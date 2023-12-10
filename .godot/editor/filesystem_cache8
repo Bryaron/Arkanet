@@ -1,0 +1,68 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1702171144
+default_bus_layout.tres::AudioBusLayout::3108331300718735162::1702167815::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1702170808::0::1::::<><>::
+icon.svg::CompressedTexture2D::22067098547320611::1698825966::1698825975::1::::<><>::
+::res://Assets/::1698827048
+icon-arkanet.png::CompressedTexture2D::4559816818811941871::1698827048::1698827048::1::::<><>::
+::res://Assets/disparo/::1698827035
+disparo.png::CompressedTexture2D::8856593971194682190::1698827034::1698827035::1::::<><>::
+powerUp.png::CompressedTexture2D::5491316727183319605::1698827034::1698827035::1::::<><>::
+::res://Assets/enemigos/::1698827035
+enemigo1.png::CompressedTexture2D::7187335731396907330::1698827034::1698827035::1::::<><>::
+enemigo2.png::CompressedTexture2D::919862994894846769::1698827034::1698827035::1::::<><>::
+explosion.png::CompressedTexture2D::2771156976956359607::1698827034::1698827035::1::::<><>::
+::res://Assets/fondo/::1698827036
+antena.png::CompressedTexture2D::7519363320906703252::1698827034::1698827036::1::::<><>::
+engranaje.png::CompressedTexture2D::5294431643439394838::1698827034::1698827035::1::::<><>::
+fondo.jpg::CompressedTexture2D::6254712858880476027::1698827034::1698827036::1::::<><>::
+montana.png::CompressedTexture2D::3287596990844036397::1698827034::1698827035::1::::<><>::
+tilemap.png::CompressedTexture2D::204849437193346321::1698827034::1698827035::1::::<><>::
+::res://Assets/fonts/::1698827034
+::res://Assets/fonts/Kubika Font/::1698827035
+Kubika Rough.ttf::FontFile::8705296046692728838::1698827035::1698827035::1::::<><>::
+::res://Assets/hud/::1698827035
+barra_vida.png::CompressedTexture2D::2549965335983988518::1698827035::1698827035::1::::<><>::
+tabla_puntos.png::CompressedTexture2D::903141388539094051::1698827035::1698827035::1::::<><>::
+vida.png::CompressedTexture2D::154993917429069805::1698827035::1698827035::1::::<><>::
+::res://Assets/pantalla_principal/::1698827035
+background_menu.jpg::CompressedTexture2D::2589609669942848869::1698827035::1698827035::1::::<><>::
+logo.png::CompressedTexture2D::7318618602715229571::1698827035::1698827035::1::::<><>::
+::res://Assets/personaje/::1698827035
+pj_barco_2.png::CompressedTexture2D::8250222287831369955::1698827035::1698827035::1::::<><>::
+pj_globo.png::CompressedTexture2D::2729744317993063977::1698827035::1698827035::1::::<><>::
+::res://Scenes/::1702171097
+Directed_enemy.tscn::PackedScene::4332913391665756595::1702167909::0::1::::<><>::uid://nduaks601g0h::::res://Assets/enemigos/enemigo2.png<>res://Scripts/Directed_enemy.gd<>uid://bfqmsyontx4yl::::res://Assets/enemigos/explosion.png<>uid://doodvxndx6ky::::res://Sounds/sfx/enemigo_destruido.ogg
+Enemy.tscn::PackedScene::2187894283718234520::1702167909::0::1::::<><>::uid://danumtbogby1g::::res://Assets/enemigos/enemigo1.png<>res://Scripts/Enemy.gd<>uid://bfqmsyontx4yl::::res://Assets/enemigos/explosion.png<>uid://doodvxndx6ky::::res://Sounds/sfx/enemigo_destruido.ogg
+Enemy_group.tscn::PackedScene::8305401098290107626::1702167909::0::1::::<><>::res://Scripts/Enemy_group.gd<>uid://6f3kf4wmsrpg::::res://Scenes/Enemy.tscn
+Level1.tscn::PackedScene::962456578174470079::1702167317::0::1::::<><>::uid://cvd3hbinevcg6::::res://Assets/fondo/fondo.jpg<>res://Scripts/Camera2D.gd<>uid://cn2l4y6kdeykm::::res://Scenes/Player.tscn<>uid://cgjxdv2igb7f4::::res://Scenes/PowerUp.tscn<>uid://b2y5pk2ake724::::res://Scenes/Directed_enemy.tscn<>uid://dqlg0irkaoxio::::res://Scenes/Enemy_group.tscn<>uid://dktaehavd5vwi::::res://Scenes/Meta.tscn<>uid://c6h3tnhn5old::::res://Assets/fondo/tilemap.png<>uid://b47iahshp8no3::::res://Scenes/Mountain.tscn<>uid://bclhs6l22yyfm::::res://Assets/hud/barra_vida.png<>uid://chcyyu5l2r78::::res://Assets/hud/vida.png<>uid://m4quvmp7h5tn::::res://Assets/hud/tabla_puntos.png<>uid://dwa57o4f1psju::::res://Assets/fonts/Kubika Font/Kubika Rough.ttf
+Level2.tscn::PackedScene::3615548825928903522::1702167909::0::1::::<><>::uid://cvd3hbinevcg6::::res://Assets/fondo/fondo.jpg<>res://Scripts/Camera2D.gd<>uid://cn2l4y6kdeykm::::res://Scenes/Player.tscn<>uid://cgjxdv2igb7f4::::res://Scenes/PowerUp.tscn<>uid://b2y5pk2ake724::::res://Scenes/Directed_enemy.tscn<>uid://dqlg0irkaoxio::::res://Scenes/Enemy_group.tscn<>uid://dktaehavd5vwi::::res://Scenes/Meta.tscn<>uid://c6h3tnhn5old::::res://Assets/fondo/tilemap.png<>uid://b47iahshp8no3::::res://Scenes/Mountain.tscn<>uid://bclhs6l22yyfm::::res://Assets/hud/barra_vida.png<>uid://chcyyu5l2r78::::res://Assets/hud/vida.png<>uid://m4quvmp7h5tn::::res://Assets/hud/tabla_puntos.png<>uid://dwa57o4f1psju::::res://Assets/fonts/Kubika Font/Kubika Rough.ttf
+LevelTemplate.tscn::PackedScene::6919437264173162386::1702168139::0::1::::<><>::uid://cvd3hbinevcg6::::res://Assets/fondo/fondo.jpg<>res://Scripts/Camera2D.gd<>uid://cn2l4y6kdeykm::::res://Scenes/Player.tscn<>uid://cgjxdv2igb7f4::::res://Scenes/PowerUp.tscn<>uid://b2y5pk2ake724::::res://Scenes/Directed_enemy.tscn<>uid://dqlg0irkaoxio::::res://Scenes/Enemy_group.tscn<>uid://dktaehavd5vwi::::res://Scenes/Meta.tscn<>uid://c6h3tnhn5old::::res://Assets/fondo/tilemap.png<>uid://b47iahshp8no3::::res://Scenes/Mountain.tscn<>uid://bclhs6l22yyfm::::res://Assets/hud/barra_vida.png<>uid://chcyyu5l2r78::::res://Assets/hud/vida.png<>uid://m4quvmp7h5tn::::res://Assets/hud/tabla_puntos.png<>uid://dwa57o4f1psju::::res://Assets/fonts/Kubika Font/Kubika Rough.ttf<>uid://b7mfeleoyfl76::::res://Sounds/bgm/Archnet-music-background_mezcla.ogg
+main_screen.tscn::PackedScene::6545627082064692548::1702171097::0::1::::<><>::res://Scripts/MainScreen.gd<>uid://bc5oq02vcj7xp::::res://Assets/pantalla_principal/background_menu.jpg<>uid://dcjgtxp4elgk6::::res://Assets/pantalla_principal/logo.png<>uid://dwa57o4f1psju::::res://Assets/fonts/Kubika Font/Kubika Rough.ttf
+Meta.tscn::PackedScene::7900381176585190408::1702167909::0::1::::<><>::uid://dfeo2yqwhp80w::::res://Assets/fondo/antena.png<>res://Scripts/Meta.gd<>uid://ddhrn51u5cfn3::::res://Sounds/sfx/antena_activa.ogg
+Mountain.tscn::PackedScene::4488443369077420804::1702167909::0::1::::<><>::res://Scripts/Mountain.gd<>uid://bm3sih5dl60u0::::res://Assets/fondo/montana.png<>uid://chowrsc1biapi::::res://Assets/fondo/engranaje.png
+Player.tscn::PackedScene::5741755517891799056::1702167909::0::1::::<><>::res://Scripts/Player.gd<>uid://dpsp7q2fbfrh0::::res://Assets/personaje/pj_barco_2.png<>uid://be5kqws042mbp::::res://Assets/personaje/pj_globo.png<>uid://bbrkujqkrxbgy::::res://Sounds/sfx/disparo.ogg
+PowerUp.tscn::PackedScene::5213956822287927919::1702156216::0::1::::<><>::res://Scripts/PowerUp.gd<>uid://ckibgi7afw1vd
+Shot.tscn::PackedScene::7901456471787599255::1702167909::0::1::::<><>::uid://dygg2q50ynhuc::::res://Assets/disparo/disparo.png<>res://Scripts/Shot.gd
+Special_shot.tscn::PackedScene::1975920639664402725::1702167909::0::1::::<><>::res://Scripts/Special_shot.gd<>uid://dktr3lyxm7c8n::::res://Scenes/Shot.tscn
+::res://Scripts/::1702169507
+Camera2D.gd::GDScript::-1::1702102097::0::1::::<>Camera2D<>::
+Directed_enemy.gd::GDScript::-1::1702166870::0::1::::<>Area2D<>::
+Enemy.gd::GDScript::-1::1702166951::0::1::::<>Area2D<>::
+Enemy_group.gd::GDScript::-1::1701828117::0::1::::<>Path2D<>::
+Global.gd::GDScript::-1::1702163299::0::1::::<>Node<>::
+MainScreen.gd::GDScript::-1::1702169507::0::1::::<>Control<>::
+Meta.gd::GDScript::-1::1702154012::0::1::::<>AnimatedSprite2D<>::
+Mountain.gd::GDScript::-1::1701823740::0::1::::<>Node2D<>::
+Player.gd::GDScript::-1::1702167074::0::1::::<>CharacterBody2D<>::
+PowerUp.gd::GDScript::-1::1701821558::0::1::::<>Area2D<>::
+Shot.gd::GDScript::-1::1702087148::0::1::::<>RigidBody2D<>::
+Special_shot.gd::GDScript::-1::1701829859::0::1::::<>Node2D<>::
+::res://Sounds/::1702166124
+::res://Sounds/bgm/::1702166215
+Archnet-music-background_mezcla.ogg::AudioStreamOggVorbis::4657547525902754163::1702166114::1702166215::1::::<><>::
+::res://Sounds/sfx/::1702166124
+antena_activa.ogg::AudioStreamOggVorbis::7385336247283914842::1702166124::1702166124::1::::<><>::
+disparo.ogg::AudioStreamOggVorbis::2492347332860911472::1702166124::1702166124::1::::<><>::
+enemigo_destruido.ogg::AudioStreamOggVorbis::240324353867843504::1702166124::1702166124::1::::<><>::
+powerup.ogg::AudioStreamOggVorbis::4946808184783503979::1702166124::1702166124::1::::<><>::
